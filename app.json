@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/match/match",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/splash/splash"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,1 +1,11 @@
 /* pages/about/about.wxss */
+
+page{
+  background-color:#00FFFF;
+}
+
+.scroll{
+  background-color: #00FF00;
+}
+
+
