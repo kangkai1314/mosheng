@@ -8,8 +8,37 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F00",
+    "navigationBarBackgroundColor": "#409eff",
     "navigationBarTitleText": "MoSheng",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "selectedColor": "#1296db",
+    "backgroundColor":"#ffffff",
+    "borderStyle":"black",
+
+    "list":
+    [
+      {
+    "pagePath":"pages/index/index",
+    "text":"星球"
+    },
+    {
+      "pagePath":"pages/match/match",
+      "text":"广场"
+    },
+    {
+      "pagePath": "pages/match/match",
+      "text": "聊天"
+    },
+    {
+      "pagePath": "pages/match/match",
+      "text": "自己"
+    }
+  
+    ]
+    
+  
+    
   }
 }

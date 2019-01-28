@@ -4,8 +4,7 @@ page{
   background-color:#00FFFF;
 }
 
-.scroll{
-  background-color: #00FF00;
+p{
+  text-align: left;
+  font-weight: bold
 }
-
-

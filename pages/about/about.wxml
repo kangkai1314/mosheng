@@ -1,24 +1,22 @@
 <!--pages/about/about.wxml-->
-<view class="main_container">
-  <scroll-view>
-    <swiper class="scroll">
-      <swiper-item class="scroll_view">
-        <button bindtap='url:../'>test</button>
-        <button>hello</button>
-         <button>hello</button>
-          <button>hello</button>
-           <button>hello</button>
-           <button>hello</button>
-           <button>hello</button>
-           <button>hello</button>
-           <button>hello</button>
-           <button>hello</button>
-
-                               
-      </swiper-item>
-    </swiper>
-
-
+<view class="section">
+<p>{{appName}}</p>
+ <view class="section__title"></view>
+  <view class="flex-wrp" style="flex-direction:row;text-aligin:left">
+    <view class="flex-item bc_green">期待自己在这个app里面做到自己喜欢的事情</view>
+    <view class="flex-item bc_red">哪怕多花点时间赶到快乐</view>
+    <view class="flex-item bc_blue">加油</view>
+  </view>
+</view>
+<view class="section">
+  <view class="section__title">flex-direction: column</view>
+  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
+    <view class="flex-item bc_green">基础功能</view>
+    <view class="flex-item bc_red">好友聊天</view>
+    <view class="flex-item bc_blue">界面展示</view>
+  </view>
+  <scroll-view scroll-y style='height:200px'>
+  <navigator url='/pages/match/match'>跳转到新界面</navigator>
   </scroll-view>
 
 </view>

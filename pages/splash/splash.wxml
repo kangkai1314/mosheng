@@ -1,5 +1,5 @@
 <!--pages/splash/splash.wxml-->
 <view class='main-container'>
-<swiper class="splash" indicator-dots></swiper>
+<image>ur:</image>
 
 </view>

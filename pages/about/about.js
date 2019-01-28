@@ -5,14 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+  appName:'陌声',
+  text:"this is about page",
+  array:[{'msg':'1','msg':'2'}]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+  console.log('process page about')
   },
 
   /**

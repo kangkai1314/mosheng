@@ -2,8 +2,21 @@
 
 <view class="main">
 <view class="match">
-<button>
-匹配
-</button>
+<text>{{msg}}</text>
+<button bindtap='clickme'>匹配</button>
+<view class='freindlst' wx:if="{{showFriends}}" >
+<ul>
+<li>好友1</li>
+<li></li>
+</ul>
 </view>
+<view class='nofriend' wx:else="{{showFriends}}">
+<p>当前没有好友哦</p>
+</view>
+</view>
+<swiper>
+<swiper-item><p>first</p></swiper-item>
+<swiper-item><p>second</p></swiper-item>
+<swiper-item><p>third</p></swiper-item>
+</swiper>
 </view>
